@@ -1,2 +1,2 @@
 # resume
-Resume created using HTML%5and CSS3
+Resume created using HTML5 and CSS3
