@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    margin: 0px 180px 0px 180px;
+    padding: 0px;
+    height: 148vh;
+    background-color: whitesmoke;
+    border: 1px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+.green {
+    position:absolute;
+    left: 230px;
+    margin: 4px;
+    padding: 1px;
+    width: 270px;
+    height: 146vh;
+    background-color: #6f9b9a;
+}
+
+.earth {
+    position: absolute;
+    margin: 4px 1px 2px 1px;
+    padding: 1px;
+    top: 100px;
+    width: 894px;
+    height: 180px;
+    background-color: #ebcbbb;
+}
+
+.round {
+    position: absolute;
+    top: 95px;
+    left: 41px;
+    margin: 2px;
+    padding: 1px;
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+#img img:nth-child(1) {
+    position: absolute;
+    top: 2.1px;
+    left: 2.4px;
+    margin: 2px;
+    padding: 1px;
+    width: 172px;
+    height: 172px;
+    border-radius: 100px;
+}
+
+#img img:nth-child(2) {
+    position: absolute;
+    top: 2.1px;
+    left: 2.4px;
+    margin: 2px;
+    padding: 1px;
+    width: 172px;
+    height: 172px;
+    border-radius: 100px;
+}
+
+#img img:nth-child(2):hover {
+    opacity: 0;
+    transition: 2s;
+}
+img{
+    color: white;
+}
+
+#contact {
+    position: absolute;
+    left: 20px;
+    top: 360px;
+}
+#skills{
+    position: absolute;
+    left: 20px;
+    top: 645px;
+}
+h3{
+    color: white;
+}
+
+h3:hover {
+    display: inline;
+    border-bottom: 1px solid white;
+}
+
+.contact {
+    position: absolute;
+    top: 383px;
+    left: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.skills{
+    position: absolute;
+    left: 20px;
+    top: 675px;
+}
+
+#name{
+    position: absolute;
+    left: 400px;
+    top: 65px;
+}
+
+.education{
+    position: absolute;
+    left: 530px;
+    top: 370px;
+}
+
+#logo{
+    color: #6f9b9a;
+    width: 25px;
+}
+
+.education h3{
+    color: black;
+    
+}
+
+.education h3:hover {
+    display: inline;
+    border-bottom: 1px solid black;
+}
+
+.education p{
+    margin:10px 8px;
+}
+
+table{
+    margin-top: 10px;
+}
+
+.languages{
+    position: absolute;
+    left: 530px;
+    top: 645px;
+}
+
+.languages h3{
+    color: black;
+    
+}
+
+.languages h3:hover {
+    display: inline;
+    border-bottom: 1px solid black;
+}
