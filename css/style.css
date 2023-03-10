@@ -4,171 +4,221 @@
 }
 
 .container {
-    display: grid;
-    margin: 2px 250px 0px 250px;
-    grid-template-columns: 35% auto;
+    background-color: black;
+    box-sizing: border-box;
 }
 
-.basic_information {
-    height: 150vh;
-    background-color: rgb(32, 18, 47);
-    color: white;
-    border-radius: 8px 0px 0px 8px;
-
+.box {
+    display: flex;
+    margin: 0px 180px 0px 180px;
+    padding: 2px;
+    height: 148vh;
+    background-color: whitesmoke;
+    border: 1px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    border-radius: 8px;
 }
 
-.additional_information {
-    height: 150vh;
-    background-color: rgb(244, 230, 239);
-    border-radius: 0px 8px 8px 0px;
-    color: rgb(32, 18, 47);
+.green {
+    position:absolute;
+    left: 230px;
+    margin: 4px;
+    padding: 1px;
+    width: 280px;
+    height: 146vh;
+    background-color: #6f9b9a;
 }
 
-img {
+.earth {
+    position: absolute;
+    margin: 4px 1px 2px 1px;
+    padding: 1px;
+    top: 100px;
+    width: 894px;
+    height: 180px;
+    background-color: #ebcbbb;
+    visibility: visible;
+}
+
+.round {
+    position: absolute;
+    top: 95px;
+    left: 41px;
+    margin: 2px;
+    padding: 1px;
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
     border-radius: 100px;
-    position: relative;
-    left: 50px;
-    top: 35px;
 }
 
-img:hover {
-    width: 13vw;
-    left: 40px;
-    top: 30px;
+#img img:nth-child(1) {
+    position: absolute;
+    top: 2.1px;
+    left: 2.4px;
+    margin: 2px;
+    padding: 1px;
+    width: 172px;
+    height: 172px;
+    border-radius: 100px;
+}
+
+#img img:nth-child(2) {
+    position: absolute;
+    top: 2.1px;
+    left: 2.4px;
+    margin: 2px;
+    padding: 1px;
+    width: 172px;
+    height: 172px;
+    border-radius: 100px;
+}
+
+#img img:nth-child(2):hover {
+    opacity: 0;
+    transition: 2s;
+}
+img{
+    color: white;
 }
 
 #contact {
     position: absolute;
-    left: 255px;
-    top: 200px;
+    left: 20px;
+    top: 360px;
+}
+#skills{
+    position: absolute;
+    left: 20px;
+    top: 645px;
+}
+h3{
+    color: white;
 }
 
-#skills {
-    position: absolute;
-    left: 255px;
-    top: 320px;
-}
-
-#languages {
-    position: absolute;
-    left: 170px;
-    top: 430px;
+h3:hover {
+    display: inline;
+    border-bottom: 1px solid white;
 }
 
 .contact {
     position: absolute;
-    left: 170px;
-    top: 195px;
-    font-size: 10.5px;
-}
-
-#mail {
-    display: flex;
-    margin: 2px;
-    font-size: 11px;
-    text-decoration: none;
-    box-sizing: content-box;
+    top: 383px;
+    left: 20px;
+    font-size: 18px;
+    color: white;
 }
 
 a {
-    margin-left: 3px;
     text-decoration: none;
     color: white;
 }
 
-a:hover {
-    color: rgb(142, 142, 219);
-}
-
-#number {
-
-    display: flex;
-    margin: 3px;
-    font-size: 10.5px;
-}
-
-#github {
-    display: flex;
-    margin: 3px;
-    font-size: 10.5px;
-}
-
-h4 {
-    margin: 6px;
-}
-
-h4:hover {
-    display: inline;
-    color: aquamarine;
-    border-bottom: 0.6px solid aquamarine;
-    text-shadow: 0 0 0.1em aquamarine;
-}
-
-#location {
-    display: inline-block;
-    margin: 1px;
-    font-size: 11px;
-    cursor: none;
-}
-
-.skills {
+.skills{
     position: absolute;
-    left: 178px;
-    top: 340px;
+    left: 20px;
+    top: 675px;
 }
 
-li {
-    margin: 2px;
-}
-
-ol {
-    font-size: 10.5px;
-    margin-left: 18px;
-}
-
-.languages {
+#name{
     position: absolute;
-    left: 178px;
-    top: 450px;
+    left: 400px;
+    top: 65px;
 }
 
-#name {
-    position: relative;
-    top: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.education{
+    position: absolute;
+    left: 530px;
+    top: 370px;
 }
 
-#name:hover {
+#logo{
+    color: #6f9b9a;
+    width: 25px;
+}
+
+.education h3{
+    color: black;
+    
+}
+
+.education h3:hover {
     display: inline;
-    border-bottom: 2px solid rgb(111, 7, 7);
+    border-bottom: 1px solid black;
 }
 
-h3 {
-    margin: 4px;
+.education p{
+    margin:10px 8px;
 }
 
-.objective,
-.education,
-.declaration {
-    position: relative;
-    top: 20px;
-
+table{
+    margin-top: 10px;
 }
 
-#objective,
-#education,
-#declaration {
-    position: relative;
-    top: 20px;
-    margin-top: 20px;
+.languages{
+    position: absolute;
+    left: 530px;
+    top: 645px;
 }
 
-p {
-    font-size: 12px;
-    margin: 2px 0px 0px 2px;
-    text-align: justify;
+.languages h3{
+    color: black;
+    
 }
 
-strong {
-    font-size: 12px;
+.languages h3:hover {
+    display: inline;
+    border-bottom: 1px solid black;
+}
+
+.name{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1000px){
+
+.container {
+  background-color: rgba(8, 8, 8, 0.998);
+  overflow: hidden;
+}
+.box{
+    background-color: black;
+    height: 101.5vh;
+}
+.earth{
+    visibility: hidden;
+}
+.education{
+    visibility: hidden;
+}
+.languages{
+    visibility: hidden;
+}
+.green{
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: 100vh;
+}
+.name{
+    visibility: visible;
+    position: absolute;
+    top: 200px;
+    left: 16px;
+}
+.name:hover{
+    border-bottom: 1px solid white;
+}
+#skills{
+    top: 595px;
+}
+.skills{
+    top: 635px;
+}
+body{
+    overflow: hidden;
+    width: 294px;
+    height: 104vh;
+}
 }
